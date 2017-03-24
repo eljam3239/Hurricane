@@ -19,6 +19,7 @@ public class Hurricane {
         int x;
         System.out.println("Welcome. Please input a value from 1-5 on the Saffir-Sympson hurricane scale, which will tell you the corresponding wind speeds. >");
         x = input.nextInt();
+        input.close();
         switch (x) {
             case 1: System.out.println("Category 1: 74-95 mph or 64-82 kt or 119-153 km/h"); break;
             case 2: System.out.println("Category 2: 96-110 mph or 83-95 kt or 154-177 km/h"); break;
